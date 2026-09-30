@@ -1,1 +1,4 @@
 name,location,county,state,status,capacity_mw,investment_usd,owner,utility,source,source_url,source_date,verified
+"Project Camellia (OpenAI)","Effingham County","Effingham","Georgia","Planned",3200,20000000000,"OpenAI","Georgia Power","Georgia Power","https://www.georgiapower.com/news-hub/press-releases/georgia-power-to-serve-openai-project-in-effingham-county.html","2026-07-22","Yes"
+"Project Sail","Newnan area","Coweta","Georgia","Approved",,"Prologis","","AJC","https://www.ajc.com/business/2026/04/coweta-votes-to-turn-this-800-acre-forest-into-17b-data-center-campus/","2026-04-08","Yes"
+"Adair Park Data Center","Atlanta","Fulton","Georgia","Proposed / Tabled",,500000000,"Digital Realty","","Atlanta Business Chronicle","https://www.bizjournals.com/atlanta/news/2026/07/13/digital-realty-data-center-zoning-vote-delay.html","2026-07-13","Yes"
