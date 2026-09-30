@@ -8,7 +8,6 @@ def load_data():
 
 def search_by_state(state):
     data = load_data()
-
     results = []
 
     for row in data:
@@ -19,6 +18,9 @@ def search_by_state(state):
 
 
 results = search_by_state("Georgia")
+
+for result in results:
+    print(result["name"])
 
 for result in results:
     print(result["name"])
