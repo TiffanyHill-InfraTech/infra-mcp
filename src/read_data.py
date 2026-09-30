@@ -21,6 +21,3 @@ results = search_by_state("Georgia")
 
 for result in results:
     print(result["name"])
-
-for result in results:
-    print(result["name"])
