@@ -1,10 +1,19 @@
 import csv
 
-with open("data/data_centers.csv", newline="", encoding="utf-8") as file:
-    reader = csv.DictReader(file)
+def load_data():
+    with open("data/data_centers.csv", newline="", encoding="utf-8") as file:
+        return list(csv.DictReader(file))
 
-    for row in reader:
-        print(row["name"])
-        print(row["location"])
-        print(row["status"])
-        print("---")
+
+def search_by_state(state):
+    data = load_data()
+
+    for row in data:
+        if row["state"].lower() == state.lower():
+            print(row["name"])
+            print(row["location"])
+            print(row["status"])
+            print("---")
+
+
+search_by_state("Georgia")
